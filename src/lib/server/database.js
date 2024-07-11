@@ -1,3 +1,10 @@
+// In a real app, this data would live in a database,
+// rather than in memory. But for now, we cheat.
+
+// NB!!!
+// On production memory doesn't last long,
+// sometimes it gets cleared.
+
 const users = new Map();
 
 const mapUserResult = (user) => ({
